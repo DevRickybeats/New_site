@@ -51,7 +51,7 @@ img {
     /* Set a maximum width to keep it from getting too big */
 }
 
-//CSS
+
 @media only screen and (max-width: 480px) {
     body {
         font-size: 14px;
