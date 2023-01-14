@@ -50,3 +50,33 @@ img {
     max-width: 50%;
     /* Set a maximum width to keep it from getting too big */
 }
+
+//CSS
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .main-container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
