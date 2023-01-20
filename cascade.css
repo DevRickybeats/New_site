@@ -11,6 +11,14 @@ h1 {
     margin: 0 auto 1rem auto;
 }
 
+h2.title {
+    font-size: 24px;
+    /* color: blue; */
+    /* background-color: #6B4226; */
+    text-align: center;
+}
+
+
 p {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -19,6 +27,18 @@ p {
     text-align: center;
     padding: 10px 0;
 }
+
+#paragraph-container {
+    border: solid 2px #A52A2A;
+    /* Dark brown */
+    padding: 2px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 10px #8B5E3C;
+    /* Light brown */
+    /* transform: rotateX(0deg) rotateY(0deg); */
+}
+
 
 input[type="text"] {
     width: 300px;
